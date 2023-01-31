@@ -1,0 +1,110 @@
+html{
+    margin: 0;
+    padding: 0;
+    background:  #353739 ;
+    color: white;
+}
+
+body{
+    width: 100%;
+    margin: 10px,auto;
+}
+
+.limpiar{
+clear: both;
+}
+
+aside,section,footer{
+    margin: 10px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav{
+    background: #ff0101  ;
+    width: 13%;
+    height: 0px;
+  
+    
+}
+
+ul{
+    list-style: none;
+}
+
+nav ul a  {
+    display: inline-block;
+    margin: 15px 0px;
+    padding: 10px 10px;
+    border-radius: 50px; 
+    font-style: initial;
+    color: #25f405;
+    line-height: 15px;
+
+}
+
+aside {
+   font-size: 90%;
+    float: left;
+    width: 18%;
+    height: 600px;
+    background: #eebc05;
+   
+}
+
+aside a {
+   
+     color: #ff0000;
+ }
+
+span{
+    color: #f5f9f6;
+    text-align: center;
+    line-height: 100px;
+    width: 100%;
+    height: 100px;
+    font-size: 600%;
+    font-family:  "Courier New", Courier, monospace;
+
+}
+section{
+    
+    float: right;
+    width: 85%;
+    height: 500px;
+    background: #000000;
+}
+
+section p{
+margin: 1%;   
+width: 96%;
+color: #ffffff;
+text-align: justify;
+font-size: 144%;
+    
+    
+}
+
+
+section h2{
+    margin: 1%;
+    padding: 25px 1px;  
+    color: #070bff;
+    text-align: left;
+    font-size: 200%;
+        
+}
+
+img{
+   width: 35%;
+   height: 35%;
+}
+
+footer{
+    background: #000000;
+}
